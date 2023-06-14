@@ -1,0 +1,35 @@
+{
+    "document_id_1": {
+      "ArticleId": "4",
+      "content": "Lorem ipsum dolor sit amet.",
+      "publishedAt": "31-Augustus-2020",
+      "title": "What is the Best Sitting Position for Good Posture?",
+      "url": "https://www.healthline.com/health/sitting-positions#",
+      "urlToImage": ""
+    },
+    "document_id_2": {
+      "ArticleId": "4",
+      "content": "Lorem ipsum dolor sit amet.",
+      "publishedAt": "31-Augustus-2020",
+      "title": "What is the Best Sitting Position for Good Posture?",
+      "url": "https://www.healthline.com/health/sitting-positions#",
+      "urlToImage": ""
+    },
+    "document_id_3": {
+      "ArticleId": "4",
+      "content": "Lorem ipsum dolor sit amet.",
+      "publishedAt": "31-Augustus-2020",
+      "title": "What is the Best Sitting Position for Good Posture?",
+      "url": "https://www.healthline.com/health/sitting-positions#",
+      "urlToImage": ""
+    },
+    "document_id_4": {
+      "ArticleId": "4",
+      "content": "Lorem ipsum dolor sit amet.",
+      "publishedAt": "31-Augustus-2020",
+      "title": "What is the Best Sitting Position for Good Posture?",
+      "url": "https://www.healthline.com/health/sitting-positions#",
+      "urlToImage": ""
+    }
+}
+  
