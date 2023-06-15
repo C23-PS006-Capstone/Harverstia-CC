@@ -23,7 +23,7 @@ def get_articles():
     # Pagination
     start_index = (page - 1) * size
     end_index = start_index + size
-    paginated_articles = filtered_articles[start_index:end_index]
+    paginated_articles = articles[start_index:end_index]
 
     response = {
         "success": True,
@@ -33,31 +33,6 @@ def get_articles():
 
     return jsonify(response), 200
 
-
-
-
-    # Endpoint for getting information
-@app.route('/informations', methods=['GET'])
-def get_informations():
-    page = int(request.args.get('page', 1))
-    size = int(request.args.get('size', 10))
-
-    # Querying information from Firestore
-    informations = todo_ref2.get()
-    informations = [information.to_dict() for information in informations]
-
-    # Pagination
-    start_index = (page - 1) * size
-    end_index = start_index + size
-    paginated_information = filtered_information[start_index:end_index]
-
-    response = {
-        "success": True,
-        "message": "Articles fetched successfully",
-        "listArticles": paginated_information
-    }
-
-    return jsonify(response), 200
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000, debug=False)
