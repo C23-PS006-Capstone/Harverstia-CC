@@ -2,7 +2,7 @@ import os
 from flask import Flask, request, jsonify
 from firebase_admin import credentials, firestore, initialize_app
 
-cred = credentials.Certificate('harvestia-5aadc-firebase-adminsdk-aua1d-4029e632b6.json')
+cred = credentials.Certificate('banksampah-f73fd-firebase-adminsdk-eoqtk-f405c833ad.json')
 app = initialize_app(cred)
 db = firestore.client()
 todo_ref = db.collection('articles')

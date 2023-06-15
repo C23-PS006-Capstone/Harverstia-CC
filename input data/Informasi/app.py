@@ -4,7 +4,7 @@ from firebase_admin import firestore
 import json
 
 # Inisialisasi Firebase Admin SDK
-cred = credentials.Certificate('harvestia-5aadc-firebase-adminsdk-aua1d-4ff4dd810c.json')
+cred = credentials.Certificate('banksampah-f73fd-firebase-adminsdk-eoqtk-f405c833ad.json')
 firebase_admin.initialize_app(cred)
 
 # Akses Firestore
